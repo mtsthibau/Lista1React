@@ -1,0 +1,50 @@
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body{
+    background-color: #e0e0e0;
+    padding: 100px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 45%;
+    padding-left: 10%;
+}
+
+/* .resultado div{
+    display: flex;
+    flex-direction: column;
+} */
+
+.resultado div{
+    height: 500px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+p{
+    font-size: 20px;
+}
